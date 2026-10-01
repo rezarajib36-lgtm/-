@@ -1,0 +1,6 @@
+{
+  "name": "ইলিশের বাড়ি রেস্টুরেন্ট",
+  "description": "ইলিশের বাড়ি রেস্টুরেন্টের সম্পূর্ণ ডিজিটাল খাবারের মেনু, অনলাইন অর্ডার ও সময়সূচি।",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

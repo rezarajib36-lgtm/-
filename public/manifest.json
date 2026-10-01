@@ -1,0 +1,62 @@
+{
+  "id": "/",
+  "name": "ইলিশের বাড়ি রেস্টুরেন্ট",
+  "short_name": "ইলিশের বাড়ি",
+  "description": "ইলিশের বাড়ি রেস্টুরেন্ট - অনলাইন খাবার অর্ডার ও ম্যানেজমেন্ট অ্যাপ",
+  "start_url": "/admin",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#ffffff",
+  "theme_color": "#d97706",
+  "icons": [
+    {
+      "src": "/images/ilisher-bari/logo-preview-400.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/images/ilisher-bari/logo-preview-400.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/images/ilisher-bari/logo-preview.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "অ্যাডমিন ড্যাশবোর্ড",
+      "short_name": "ড্যাশবোর্ড",
+      "description": "অ্যাডমিন ড্যাশবোর্ড ও রিপোর্ট",
+      "url": "/admin",
+      "icons": [{ "src": "/images/ilisher-bari/logo-preview-400.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "নতুন অর্ডার",
+      "short_name": "অর্ডার",
+      "description": "অর্ডার তালিকা ও ম্যানেজমেন্ট",
+      "url": "/admin/orders",
+      "icons": [{ "src": "/images/ilisher-bari/logo-preview-400.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "খরচ ও লাভ",
+      "short_name": "খরচ",
+      "description": "দৈনিক খরচ ও নিট লাভ",
+      "url": "/admin/expenses",
+      "icons": [{ "src": "/images/ilisher-bari/logo-preview-400.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "কাস্টমার মেনু",
+      "short_name": "মেনু",
+      "description": "খাবারের মেনু পেজ",
+      "url": "/",
+      "icons": [{ "src": "/images/ilisher-bari/logo-preview-400.png", "sizes": "192x192" }]
+    }
+  ]
+}
